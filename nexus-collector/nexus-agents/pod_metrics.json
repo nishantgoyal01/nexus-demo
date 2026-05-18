@@ -1,0 +1,26 @@
+[
+    {
+        "pod": "payment-service",
+        "cpu": 91,
+        "memory": 78,
+        "restarts": 3,
+        "namespace": "default",
+        "status": "Running"
+    },
+    {
+        "pod": "frontend",
+        "cpu": 25,
+        "memory": 35,
+        "restarts": 0,
+        "namespace": "default",
+        "status": "Running"
+    },
+    {
+        "pod": "file-worker",
+        "cpu": 62,
+        "memory": 89,
+        "restarts": 1,
+        "namespace": "default",
+        "status": "Pending"
+    }
+]

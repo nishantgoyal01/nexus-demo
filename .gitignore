@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node / React
+node_modules/
+dist/
+build/
+.env.local
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Secrets
+*.key
+*.pem
+secrets.yaml

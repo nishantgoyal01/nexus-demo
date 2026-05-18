@@ -1,0 +1,142 @@
+[
+    {
+        "timestamp": "2026-05-18T08:20:00.134460",
+        "namespace": "default",
+        "pod": "backend-b85bd8ff9-mvh22",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 85.39,
+        "memory_mib": 11.44
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134469",
+        "namespace": "default",
+        "pod": "cpu-spike",
+        "status": "Failed",
+        "restart_count": 0,
+        "node": "minikube",
+        "cpu_millicores": 0,
+        "memory_mib": 0
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134472",
+        "namespace": "default",
+        "pod": "database-7bcd4fcdc9-8bc8w",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 0.78,
+        "memory_mib": 10.59
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134475",
+        "namespace": "default",
+        "pod": "file-worker-5875db8cf9-zcj2s",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 0.07,
+        "memory_mib": 0.52
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134478",
+        "namespace": "default",
+        "pod": "frontend-568bd7b9b7-g67x8",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 0,
+        "memory_mib": 8.82
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134480",
+        "namespace": "default",
+        "pod": "load-generator-799b697f97-z9ws9",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 499.99,
+        "memory_mib": 8.43
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134483",
+        "namespace": "kube-system",
+        "pod": "coredns-7d764666f9-46t4c",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 131.53,
+        "memory_mib": 20.84
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134485",
+        "namespace": "kube-system",
+        "pod": "etcd-minikube",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 6.13,
+        "memory_mib": 65.32
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134488",
+        "namespace": "kube-system",
+        "pod": "kube-apiserver-minikube",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 13.04,
+        "memory_mib": 205.11
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134491",
+        "namespace": "kube-system",
+        "pod": "kube-controller-manager-minikube",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 4.72,
+        "memory_mib": 64.03
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134494",
+        "namespace": "kube-system",
+        "pod": "kube-proxy-s5j79",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 0.21,
+        "memory_mib": 37.3
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134497",
+        "namespace": "kube-system",
+        "pod": "kube-scheduler-minikube",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 2.31,
+        "memory_mib": 26.04
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134500",
+        "namespace": "kube-system",
+        "pod": "metrics-server-9d74bb658-kjvlq",
+        "status": "Running",
+        "restart_count": 1,
+        "node": "minikube",
+        "cpu_millicores": 1.14,
+        "memory_mib": 24.09
+    },
+    {
+        "timestamp": "2026-05-18T08:20:00.134502",
+        "namespace": "kube-system",
+        "pod": "storage-provisioner",
+        "status": "Running",
+        "restart_count": 3,
+        "node": "minikube",
+        "cpu_millicores": 0.55,
+        "memory_mib": 18.04
+    }
+]

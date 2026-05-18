@@ -1,0 +1,50 @@
+[
+    {
+        "agent": "CPUAgent",
+        "severity": "critical",
+        "pod": "payment-service",
+        "namespace": "default",
+        "message": "CPU spike detected in payment-service. CPU usage is 91%.",
+        "timestamp": "2026-05-18T08:02:02.262122"
+    },
+    {
+        "agent": "MemoryAgent",
+        "severity": "warning",
+        "pod": "payment-service",
+        "namespace": "default",
+        "message": "High memory usage in payment-service. Memory usage is 78%.",
+        "timestamp": "2026-05-18T08:02:02.262451"
+    },
+    {
+        "agent": "RestartAgent",
+        "severity": "critical",
+        "pod": "payment-service",
+        "namespace": "default",
+        "message": "payment-service has restarted 3 times. Possible crash loop.",
+        "timestamp": "2026-05-18T08:02:02.262453"
+    },
+    {
+        "agent": "MemoryAgent",
+        "severity": "critical",
+        "pod": "file-worker",
+        "namespace": "default",
+        "message": "Memory pressure detected in file-worker. Memory usage is 89%.",
+        "timestamp": "2026-05-18T08:02:02.262456"
+    },
+    {
+        "agent": "RestartAgent",
+        "severity": "warning",
+        "pod": "file-worker",
+        "namespace": "default",
+        "message": "file-worker has restarted 1 time(s). Check container stability.",
+        "timestamp": "2026-05-18T08:02:02.262457"
+    },
+    {
+        "agent": "StatusAgent",
+        "severity": "critical",
+        "pod": "file-worker",
+        "namespace": "default",
+        "message": "file-worker is not running. Current status: Pending.",
+        "timestamp": "2026-05-18T08:02:02.262458"
+    }
+]

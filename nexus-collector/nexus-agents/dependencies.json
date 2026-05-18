@@ -1,0 +1,6 @@
+{
+    "frontend": ["backend"],
+    "backend": ["database"],
+    "file-worker": ["database"],
+    "load-generator": ["backend"]
+}
